@@ -2,3 +2,21 @@
 @import "color";
 @import "header";
 @import "footer";
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    border: .5px solid black;
+    border-radius: 5px;
+    background-color: beige;
+    color: black;
+    font-weight: bold;
+    &:hover {
+        color: white;
+        background-color: black;
+    }
+}
+
+p {
+    margin-bottom: 50px;
+}
